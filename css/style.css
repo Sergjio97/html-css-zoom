@@ -130,6 +130,30 @@ body {
 
 /* *** inizio sezione web cam *** */
 
+.flex-box {
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+
+.back {
+    width: 10%;
+    height: 450px;
+    background-color: tomato;
+}
+
+.web-cam {
+    width: 80%;
+    height: 450px;
+    background-color: turquoise;
+}
+
+.next {
+    width: 10%;
+    height: 450px;
+    background-color: tomato;
+}
+
 /* *** / sezione web cam *** */
 
 /* *** / main *** */
