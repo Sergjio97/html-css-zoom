@@ -38,7 +38,14 @@ body {
 
 /* *** inizio header *** */
 
-/* *** / header *** */
+header {
+    position: relative;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* *** inizio stato-connessione *** */
 
@@ -104,10 +111,16 @@ body {
     align-self: flex-start;
 }
 
-
 /* *** / id *** */
 
+/* *** / header *** */
+
 /* *** inizio main *** */
+
+main {
+    width: 100%;
+    background-color: black;
+}
 
 /* *** inizio speaker view *** */
 
@@ -200,26 +213,66 @@ body {
 
 /* *** inizio footer *** */
 
-/* *** / footer *** */
-
-/* *** debug *** */
-
-header {
-    position: relative;
+footer {
     width: 100%;
-    background-color: lightgray;
+    height: 50px;
+    background-color: rgb(27, 27, 27);
     display: flex;
+    justify-content: space-between;
+}
+
+.audio-video {
+    width: 36%;
+    height: 50px;
+    display: flex;
+
+}
+
+.audio {
+    width: 18%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video {
+    width: 18%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-main {
-    width: 100%;
-    background-color: black;
+
+.opzioni {
 }
 
-footer {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(27, 27, 27);
+.end-meeting {
+
 }
+
+footer i {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+footer span {
+    font-size: 11px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 3px;
+}
+
+.chevron {
+    font-size: 15px;
+}
+
+/* *** / footer *** */
+
+/* *** debug *** */
