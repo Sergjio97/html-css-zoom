@@ -24,6 +24,18 @@ body {
     float: right;
 }
 
+.mr-5px {
+    margin-right: 5px;
+}
+
+.ml-5px {
+    margin-left: 5px;
+}
+
+.mb-5px {
+    margin-bottom: 5px;
+}
+
 /* *** inizio header *** */
 
 /* *** / header *** */
@@ -71,8 +83,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 13px;
-    font-weight: bold;
 }
 
 .casella-id {
@@ -81,6 +91,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
 } 
 
 .id-personale {
@@ -134,24 +147,51 @@ body {
     width: 100%;
     display: flex;
     padding-top: 20px;
+    padding-bottom: 45px;
 }
 
 .back {
-    width: 10%;
-    height: 450px;
-    background-color: tomato;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(153, 152, 152);
 }
 
 .web-cam {
-    width: 80%;
-    height: 450px;
-    background-color: turquoise;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .next {
-    width: 10%;
-    height: 450px;
-    background-color: tomato;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(58, 178, 252);
+}
+
+#num-layout {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.box-webcam {
+    width: 19.7%;
+    height: 100px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+}
+
+.border-yellow {
+    border: 3px solid rgb(253, 253, 99);
 }
 
 /* *** / sezione web cam *** */
@@ -175,7 +215,6 @@ header {
 
 main {
     width: 100%;
-    height: 600px;
     background-color: black;
 }
 
